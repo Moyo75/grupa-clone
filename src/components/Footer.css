@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+
+body {
+    background-color: transparent;
+}
+
+.hr-style {
+    width: 80%;
+    border: 0;
+    height: 1px;
+    background: #eee;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.footer {
+    display: grid;
+    justify-content: space-around;
+    align-items: baseline;
+    height: 70%;
+    width: 100%;
+    margin: 0 auto;
+    grid-auto-flow: column;
+    font-size: 16px;
+    font-weight: 400;
+    color: #b2b2b3;
+}
+
+footer > p > Link {
+    /* color: #c6c6c9; */
+    color: #b2b2b3;
+    text-transform: capitalize;
+    font-size: 14px;
+    text-decoration-style: solid;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        grid-auto-flow: row;
+    }
+}

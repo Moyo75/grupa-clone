@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+
+* {
+    box-sizing: border-box;
+}
+
+.homeContent {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.homeTextBtn {
+    margin-top: -75px;
+    margin-left: 30px;
+    widows: 525px;
+}
+
+.homeImg {
+    margin: 0 0px;
+}
+
+.homeImg > img {
+    width: 400px;
+    height: auto;
+    margin-left: 30px;
+    justify-content: center;
+    align-content: right;
+    margin-right: 80px;
+    padding-top: 15px;
+}
+
+
+.bgImg {
+    background-image: url('../Images/bg.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    margin: 0 50px;
+}
+
+@media (max-width: 960px) {
+    .homeContent {
+        transform: scale(0.8);
+        /* grid-auto-flow: row; */
+    }
+
+    /* .homeImg > img {
+        margin-left: 170px;
+    } */
+}
+
+@media (max-width: 840px) {
+    .homeContent {
+        transform: scale(1.0);
+        grid-auto-flow: row;
+    }
+
+    .homeImg > img {
+        margin-left: 170px;
+    }
+}
+

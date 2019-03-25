@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+
+.tefPage {
+    min-height: 70vh;
+}
+
+.tefContainer {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-auto-flow: column;
+    grid-gap: 50px;
+    margin-top: 75px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+ }
+
+ .tefText {
+     justify-content: left;
+     width: 652.5px;
+     height: 435px;
+ }
+
+ .tefText > h2 {
+     width: inherit;
+     text-transform: uppercase;
+     margin-left: 10px;
+     font-size: 24px;
+     font-weight: 500;
+ }
+
+ .tefParagraph1,
+.tefParagraph2 {
+    text-align: left;
+    width: inherit;
+    color: #919191;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 1.4;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+div > .applyNow > .btn {
+    text-transform: capitalize;
+    color: #000;
+    margin-left: 10px;
+    margin-top: 30px;
+   
+}
+
+div > .applyNow > a {
+    background: #ebebeb;
+    width: 400px;
+    height: 55px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+    padding-top: 13px;
+    border: 1px solid #ebebeb;
+}
+
+.tefImage {
+    margin-left: 20px;
+}
+
+.tefImage > img {
+    width: 457.5px;
+    height: 261.38px;
+}
+
+.bgImg {
+    background-image: url('../Images/bg.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+
+@media (max-width: 1200px) {
+    .tefContainer {
+        transform: scale(0.8);
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .tefContainer {
+        transform: scale(0.6);
+    }
+}
+
+@media (max-width: 700px) {
+    .tefContainer {
+        grid-auto-flow: row;  
+        transform: scale(1);
+        grid-gap: 5px;
+    }
+
+
+    .tefText > h2 {
+        margin-left: 120px;     
+       font-size: 18px;
+    }
+
+    .tefParagraph1,
+    .tefParagraph2 {
+    text-align: left;
+    font-size: 18px;
+    width: 400px;
+    margin-left: 120px;
+    }
+
+    div > .applyNow > .btn {
+    margin-left: 120px;
+   
+    }
+
+    .tefImage {
+        margin-left: 120px;
+    }
+}

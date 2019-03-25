@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+.whyMainContent {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Fira Sans', sans-serif;
+    margin-right: 3%;
+    margin-left: 4%;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    grid-gap: 25px;
+    min-height: 70vh;
+    color: #333;
+}
+
+.whyHeader {
+    margin-top: 15px;
+    margin-bottom: 2px;
+    padding: 10px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1.1;
+    font-size: 24px;
+}
+
+.whyParagraph {
+    font-weight: 300;
+    font-family: 'Fira Sans', sans-serif;
+    width: 592px;
+    line-height: 1.4;
+    font-size: 21px;
+    height: 145px;
+    margin-top: 0px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.whyText {
+    display: grid;
+    font-size: 21px;
+    margin-left: 95px;
+    margin-top: 30px;
+    /* text-transform: capitalize; */
+}
+
+.whySubContent {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 12px;
+    margin-right: 20px;
+    grid-gap: 40px;
+    text-align: left;
+}
+
+.whatsMore {
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.youAlsoGet {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.whatsMoreList, .youAlsoGetList {
+    font-size: 14px;
+    width: 241.250px;
+    height: 50px;
+    padding-left: 40px;
+    line-height: 25px;
+}
+
+.whyImage {
+    display: grid;
+}
+
+.whySubContent {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.whyImage {
+    display: grid;
+    justify-content: start;
+    align-content: top;
+}
+
+img {
+    height: 300.5px;
+    width: 457.5px;
+    margin-left: -10px;
+}
+
+.bgImg {
+    background-image: url('../Images/bg.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+
+@media (max-width: 1200px) {
+    .whyParagraph {
+        width: 400px;
+        height: auto;
+    }
+
+    .whySubContent {
+        grid-auto-flow: row;
+        margin-bottom: 30px;
+    }
+
+    .whyImage {
+        transform: scale(0.8);
+    }
+}
+
+@media (max-width: 768px) {
+    .whyMainContent {
+        grid-auto-flow: row;
+    }
+
+    .whyParagraph{
+        margin-left: -70px;
+    }
+
+    .whyImage {
+        transform: scale(.9);
+    }
+    
+}

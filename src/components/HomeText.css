@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+.content {
+    margin: 100px;
+}
+
+.btnContainer {
+    margin: 0 auto;
+    min-width: 500px;
+}
+
+.mainText {
+    font-size: 45px;
+    font-weight: 300;
+    width: 315px;
+    color: #000;
+    margin-left: 7px;
+    margin-bottom: 50px;
+    line-height: 1.42857143;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.buttonOne {
+    font-size: 18px;
+    height: 55px;
+    cursor: pointer;
+    min-width: 400px;
+    font-weight: 500;
+    transition: .3s;
+    text-transform: uppercase;
+    background: #ebebeb;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+a > .buttonOne:hover {
+    background: #000;
+    color: white;
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 50px 20px #acacac;
+}
+
+a > .buttonTwo:hover {
+    background: #000;
+    color: white;
+    box-shadow: 0px 10px 50px 20px #acacac;
+}
+
+
+p {
+    text-align: center;
+    margin: 10px;
+    color: #646464;
+    width: 400px;
+}
+
+
+.buttonTwo {
+    font-size: 18px;
+    height: 55px;
+    min-width: 400px;
+    transition: .5s;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #ebebeb;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+@media (max-width: 960px) {
+    .mainText {
+        margin-left: 35px;
+    }
+
+    .buttonOne {
+        margin-left: 23px;
+    }
+
+    .buttonTwo {
+        margin-left: 23px;
+    }
+}

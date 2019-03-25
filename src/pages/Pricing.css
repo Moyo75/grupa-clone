@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+.container {
+    margin-top: 30px;
+    margin-bottom: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+    min-height: 75vh;
+}
+
+header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.topText {
+    text-transform: capitalize;
+}
+
+header > .topText {
+    line-height: 1.1;
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-weight: 100;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.gridContainer {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.listContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+}
+
+.box {
+    background: #eee;
+    width: 320px;
+    padding: 19px;
+    height: 336px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.price {
+    font-size: 56px;
+    margin-top: 30px;
+}
+
+.package {
+    width: 280px;
+    height: 120px;
+    margin-bottom: -20px;
+}
+
+.rate {
+    width: 320px;
+    margin: 25px auto;
+}
+
+.box > a {
+    width: 320px;
+    font-size: 18px;
+    padding: 18px 50px;
+    font-weight: 500;
+    font-family: 'Fira Sans', sans-serif;
+    background: #000;
+    color: #fff;
+    border: 1px solid #000;
+    outline: none;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+.pricing1header {
+    font-weight: bold;
+    text-align: left;
+    font-size: 18px;
+}
+
+.pricing1content {
+    text-align: left;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.pricing2header {
+    font-weight: bold;
+    text-align: left;
+    font-size: 18px;
+}
+
+.pricing2content {
+    text-align: left;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.pricing3header {
+    font-weight: bold;
+    text-align: left;
+    font-size: 18px;
+}
+
+.pricing3content {
+    text-align: left;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.pricing4header {
+    font-weight: bold;
+    text-align: left;
+    font-size: 18px;
+}
+
+.pricing4content {
+    text-align: left;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+
+.bgImg {
+    background-image: url('../Images/bg.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+
+@media (max-width: 768px) {
+    .gridContainer {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 80px;
+    }
+
+    .listContainer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 1220px) {
+    .gridContainer {
+        transform: scale(0.8);
+    }
+}
+
+@media (max-width: 970px) {
+    .listContainer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .gridContainer {
+        transform: scale(1.0);
+    }
+}

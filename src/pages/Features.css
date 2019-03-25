@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+div > p {
+    color: #333;
+}
+
+.features {
+    margin-top: 30px;
+    margin-bottom: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+    min-height: 75vh;
+}
+
+header {
+   display: grid;
+   justify-content: center;
+   align-content: center;
+}
+
+header > .HeaderText {
+    line-height: 1.1;
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.mainContent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+}
+
+.content1 {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+
+i {
+    font-size: 32px;
+    font-weight: 100;
+    margin-left: 12px;
+}
+
+#text1 {
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.content1Paragraph2 {
+    font-weight: 200;
+    width: inherit;
+    margin-left: 120px;
+    color: #777676;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.content1Paragraph1 {
+    text-align: left;
+}
+
+.content2 {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+
+#text2 {
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.content2Paragraph2 {
+    font-weight: 200;
+    width: inherit;
+    margin-left: 120px;
+    color: #777676;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.content2Paragraph1 {
+    text-align: left;
+}
+
+.content3 {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+
+#text3 {
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.content3Paragraph2 {
+    font-weight: 200;
+    width: inherit;
+    margin-left: 120px;
+    color: #777676;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.content3Paragraph1 {
+    text-align: left;
+}
+
+.content4 {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+
+#text4 {
+    margin-left: 5px;
+    color: black;
+    width: inherit;
+    align-content: end;
+    padding-left: 20px;
+    font-weight: 700;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+.content4Paragraph2 {
+    font-weight: 200;
+    width: inherit;
+    margin-left: 120px;
+    color: #777676;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.content4Paragraph1 {
+    text-align: left;
+    width: inherit;
+}
+
+.fab {
+    margin-left: 80px;
+}
+
+
+.bgImg {
+    background-image: url('../Images/bg.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+
+@media (max-width: 768px) {
+    .mainContent {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+
+    .content1Paragraph1 {
+        margin-left: 3px;
+    }
+
+    .content1Paragraph2 {
+        margin-left: 25px;
+        width: 400px;
+    }
+
+    .content2Paragraph1 {
+        margin-left: 3px;
+    }
+
+    .content2Paragraph2 {
+        margin-left: 25px;
+        width: 400px;
+    }
+
+    .content3Paragraph1 {
+        margin-left: 3px;
+    }
+
+    .content3Paragraph2 {
+        margin-left: 25px;
+        width: 400px;
+    }
+
+    .content4Paragraph1 {
+        margin-left: -127px;
+        width: 400px;
+        text-align: center;
+    }
+
+    .content4Paragraph2 {
+        margin-left: 25px;
+        width: 400px;
+    }
+}
+
